@@ -2,14 +2,12 @@
 
 > Aplicação para converter moeda Dólar em Real e vice-versa Com conexão com a [API](https://free.currencyconverterapi.com/) para consultar o dolar em tempo real
 
-![](../header.png)
+![](conversor-moeda.PNG)
 
 
 ## Meta
 
 Marlon Paulo - marlon.paulo.silva@outlook.com
-
-Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
 
 [https://github.com/marlon-paulo-da-silva/github-link](https://github.com/marlon-paulo-da-silva/)
 
