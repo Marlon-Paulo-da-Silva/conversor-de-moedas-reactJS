@@ -35,9 +35,9 @@ export default class Conversor extends Component {
         return (
             <div className="conversor">
                 <h2>{this.props.moedaA} para {this.props.moedaB}</h2>
-                <input onChange={(event) => { this.setState({moedaA_valor:event.target.value})}} type="text"></input>
-                <input type="button" value="Converter" onClick={this.converter}></input>
-                <h2>valor convertido: {this.state.moedaB_valor}</h2>
+                <input className="input" onChange={(event) => { this.setState({moedaA_valor:event.target.value})}} type="text"></input>
+                <input className="button" type="button" value="Converter" onClick={this.converter}></input>
+                <h2>valor convertido: <span> {this.state.moedaB_valor} </span></h2>
 
             </div>
         )
